@@ -2,13 +2,33 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+.btn{
+    background-color: #31110F;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    text-align: center;
+}
+.btn:hover{
+    background-color: #2b2b2b;
+}
 body{
     margin: 0%;
 }
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: #0D1F08;
+    background-color: #31110F;
     padding: 20px;
 
     align-items: center;
@@ -74,7 +94,7 @@ body{
 .landing{
     background-image: url(../imgs/maksym-zakharyak.jpg);
     background-size: cover;
-    height: calc(100vh - 113px);
+    height: calc(100vh - 104px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,9 +108,20 @@ body{
     font-size: 50px;
     font-weight: bold;
 }
-.text-landing p{
+.text-landing p:first-child{
     font-size: 20px;
     line-height: 1.8;
     margin: 5px 0 0;
+
+}
+.text-landing p:nth-child(3){
+    font-size: 20px;
+    line-height: 1.8;
+    margin: 5px 0 0;
+    color: #eee;
+}
+.text-landing a {
+    display: block;
+    margin: 3vw 20px;
 
 }
