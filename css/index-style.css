@@ -284,3 +284,57 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+.img-landing2{
+    background-image: url(../imgs/fotis-fotopoulos.jpg);
+}
+.foot{  
+    padding: 50px 15px;
+    background-color: #eee;
+
+}
+.foot div i{
+    font-size: 30px;
+}
+.foot div{
+    padding-left: 15px;
+    margin-top: 15px;
+
+}
+.foot div a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.foot div ul{
+    padding: 0%;
+}
+.foot div a:hover{
+    color: #222;
+}
+.foot div ul li{
+    margin: 15px 0;
+    font-size: 15px;
+    list-style: none;
+    padding: 0%;
+}
+.foot div{
+    margin-top: 83px;
+}
+.social ul{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.social ul li a:hover{
+    color: #222;
+}
+.social ul li a i:hover{
+    font-size: 32px;
+}
